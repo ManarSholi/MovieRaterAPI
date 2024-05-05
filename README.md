@@ -2,11 +2,12 @@
 
 APIs
 1. Add new movie
+   ```
    POST http://127.0.0.1:8000/api/movies/
    Body:
      "title": "",
      "description": ""
-
+   ```
 
 3. Get list of movies
    GET http://127.0.0.1:8000/api/movies/
